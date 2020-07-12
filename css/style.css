@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+.ul-right-section {
+  width: 250px;
+  height: auto;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+nav a {
+  margin-right: 20px;
+  color: #000000;
+}
+nav .ul-right-section .menu-icon {
+  background-image: url("https://i.imgur.com/kcVscdt.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 25px;
+  height: 25px;
+}
+
+nav .ul-right-section img {
+  border-radius: 50%;
+  margin-left: 20px;
+}
