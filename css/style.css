@@ -44,3 +44,35 @@ nav .ul-right-section img {
   border-radius: 50%;
   margin-left: 20px;
 }
+
+main {
+  margin-top: 100px;
+  text-align: center;
+}
+main .main-logo {
+  width: 530px;
+  margin: 0 auto;
+}
+main .main-logo img {
+  width: 272px;
+  height: 92px;
+}
+main .main-input {
+  width: 530px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+main .main-input-container {
+  width: 525px;
+  border-radius: 100px;
+  border: 1px solid #dfe1e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .main-input input {
+  width: 425px;
+  height: 40px;
+  border: none;
+  outline: none;
+}
